@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pomodoro Clock</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://use.fontawesome.com/26cced8d82.js"></script>
+    </head>
+    <body>
+        <h1>POMODORO CLOCK</h1>
+        <div id="circle">
+        <div class="timer">
+            <span id="time-display">25:00</span>
+        </div>
+        </div>
+        <div class="controls">
+            <i class="fa fa-play-circle-o" id="play" aria-hidden="true"></i>
+            <i class="fa fa-pause" id ="pause" aria-hidden="true"></i>
+            <i class="fa fa-refresh" id="reset" aria-hidden="true"></i>
+        </div>
+        <div class="set-time">
+        <h4 id="ses">SESSION TIME</h4>
+        <input type="number" id="session" class="times" placeholder="25">
+        <h4 id="b">BREAK TIME</h4>
+        <input type="number" id="break" class="times" placeholder="5">
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
